@@ -1,0 +1,224 @@
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+body {
+          font-size: 0;
+          font-family: Arial, sans-serif;
+}
+
+header {
+          max-width: 1400px;
+          padding: 60px 0 0 0;
+          height: auto;
+          margin: auto;
+}
+
+nav {
+          width: 60%;
+          height: auto;
+          display: inline-block;
+          vertical-align: top;
+}
+
+main {
+          max-width: 1400px;
+          height: auto;
+          margin: auto;
+          padding: 20px;
+}
+
+.container {
+          width: 100%;
+          height: auto;
+          margin: auto;
+}
+
+.logo {
+          width: 40%;
+          height: auto;
+          display: inline-block;
+          vertical-align: top;
+}
+
+.info {
+          max-width: 1400px;
+          height: auto;
+          margin: auto;
+          padding: 50px 0 50px 0;
+}
+
+.info_text {
+          width: 33%;
+          height: auto;
+          display: inline-block;
+          vertical-align: top;
+}
+
+.info_text2 {
+          width: 60%;
+          height: auto;
+          padding: 30px 0 0 0;
+          display: inline-block;
+          vertical-align: top;
+}
+
+.info_text3 {
+          width: 60%;
+          height: auto;
+          padding: 30px 0 0 0;
+          display: inline-block;
+          vertical-align: top;
+}
+
+.info_logo {
+          width: 67%;
+          height: 506px;
+          display: inline-block;
+          vertical-align: top;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-image: url(../img/banner.png);
+}
+
+.info_logo2 {
+          width: 40%;
+          height: 506px;
+          display: inline-block;
+          vertical-align: top;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-image: url(../img/banner.png);
+}
+
+.info_logo3 {
+          width: 40%;
+          height: 506px;
+          display: inline-block;
+          vertical-align: top;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-image: url(../img/banner.png);
+}
+
+#info {
+          height: auto;
+          padding: 0 20px 0 20px;
+          background-color: #FFC038;
+}
+
+#firstli {
+          margin-left: 0;
+}
+
+#wwd {
+          width: 300px;
+          height: 48px;
+          display: block;
+          margin: auto;
+          margin-top: 120px;
+          margin-bottom: 120px;
+          border: none;
+          outline: none;
+          border-radius: 4px;
+          font-weight: bold;
+          text-transform: uppercase;
+          font-size: 22px;
+          color: white;
+          background-color: #464646;
+}
+
+#firstinfo {
+          padding-top: 0;
+}
+
+nav li {
+          display: inline-block;
+          vertical-align: top;
+          font-size: 19px;
+          margin-left: 5%;
+          font-weight: bold;
+          text-transform: uppercase;
+}
+
+nav a {
+          text-decoration: none;
+          color: #464646;
+
+}
+
+.logo img {
+          width: 250px;
+}
+
+.info_text h1 {
+          text-transform: uppercase;
+          font-size: 46px;
+          color: white;
+}
+
+.info_text2 h1 {
+          font-size: 30px;
+          color: black;
+          padding-left: 50px;
+}
+
+.info_text3 h1 {
+          font-size: 30px;
+          color: black;
+}
+
+.info_text p {
+          width: 94%;
+          padding-top: 30px;
+          font-size: 20px;
+          color: white;
+          line-height: 30px;
+}
+
+.info_text2 p {
+          width: 100%;
+          padding-top: 30px;
+          float: right;
+          padding-left: 50px;
+          font-size: 20px;
+          color: grey;
+          line-height: 30px;
+}
+
+.info_text3 p {
+          width: 100%;
+          padding-top: 30px;
+          padding-right: 50px;
+          font-size: 20px;
+          color: grey;
+          line-height: 30px;
+}
+
+.info_text button {
+          width: 120px;
+          height: 48px;
+          color: white;
+          margin-top: 20px;
+          border: none;
+          outline: none;
+          border-radius: 4px;
+          background-color: #464646;
+}
+
+.info_text2 button, .info_text3 button {
+          color: #464646;
+          font-weight: bold;
+          text-transform: uppercase;
+          background-color: #FFC038;
+}
+
+.info_text2 button {
+          float: right;
+          margin-right: 20px;
+}
